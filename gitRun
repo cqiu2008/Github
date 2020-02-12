@@ -1,3 +1,8 @@
 git add gitRun 
 git commit -m "add gitRun initial version"
 git push -u origin master
+
+git setup
+git config --global user.name  "cqiu2008@hotmail.com"
+git config --global user.email "cqiu2008@hotmail.com"
+git config -l
