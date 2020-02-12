@@ -6,3 +6,13 @@ git setup
 git config --global user.name  "cqiu2008@hotmail.com"
 git config --global user.email "cqiu2008@hotmail.com"
 git config -l
+
+git remote -v
+
+git remote rm origin
+
+git remote add origin git@github.com:cqiu2008/Github.git
+
+git remote -v
+
+git push --set-upstream origin master
